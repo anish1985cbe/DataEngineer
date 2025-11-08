@@ -5,11 +5,17 @@
 		"factoryName": {
 			"value": "ADF-PRACTICAL-09"
 		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
 		"LK_SQL_PARQUET_accountKey": {
 			"value": ""
 		},
 		"LS_SQL_Dataset_password": {
 			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adfpracticaloutput.dfs.core.windows.net/"
 		},
 		"LK_SQL_PARQUET_properties_typeProperties_url": {
 			"value": "https://adfpracticaloutput.dfs.core.windows.net/"
