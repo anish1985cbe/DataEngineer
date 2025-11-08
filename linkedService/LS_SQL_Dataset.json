@@ -1,0 +1,21 @@
+{
+	"name": "LS_SQL_Dataset",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "ANISH\\SQLEXPRESS",
+			"database": "SqlLearnPractice",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "sa",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI3NTgzNjgzOC1hYTY5LTQ1NjQtYmJkOS1hYjA5ODE0ZmNkYzYiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "self-integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
