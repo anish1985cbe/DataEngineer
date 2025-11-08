@@ -1,0 +1,9 @@
+{
+	"name": "ADF-PRACTICAL-09",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1014b4a8-ba3c-42b8-9252-a9987791177b",
+		"tenantId": "362fc8b4-e927-4c8d-8d05-e9ce3ea629db"
+	}
+}
