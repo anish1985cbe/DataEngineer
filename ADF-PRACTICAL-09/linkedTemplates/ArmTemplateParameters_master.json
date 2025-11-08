@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ADF-PRACTICAL-09"
+		},
+		"LK_SQL_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_SQL_Dataset_password": {
+			"value": ""
+		},
+		"LK_SQL_PARQUET_properties_typeProperties_url": {
+			"value": "https://adfpracticaloutput.dfs.core.windows.net/"
+		},
+		"LS_SQL_Dataset_properties_typeProperties_server": {
+			"value": "ANISH\\SQLEXPRESS"
+		},
+		"LS_SQL_Dataset_properties_typeProperties_database": {
+			"value": "SqlLearnPractice"
+		},
+		"LS_SQL_Dataset_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
