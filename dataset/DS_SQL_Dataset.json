@@ -1,0 +1,30 @@
+{
+	"name": "DS_SQL_Dataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQL_Dataset",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "empid",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "empname",
+				"type": "varchar"
+			},
+			{
+				"name": "city",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "employeeinfo"
+		}
+	}
+}
